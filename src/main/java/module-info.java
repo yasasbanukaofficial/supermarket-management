@@ -3,6 +3,6 @@ module com.management.supermarket {
     requires javafx.fxml;
 
 
-    opens com.management.supermarket to javafx.fxml;
+    opens com.management.supermarket.controller to javafx.fxml;
     exports com.management.supermarket;
 }

@@ -1,3 +1,5 @@
+package com.management.supermarket;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -13,9 +15,9 @@ public class AppInitializer extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         try {
-            Parent parent = FXMLLoader.load(getClass().getResource("view/Dashboard.fxml"));
+            Parent parent = FXMLLoader.load(getClass().getResource("/view/Dashboard.fxml"));
             Scene scene = new Scene(parent);
-            stage.setScene(scene);
+            stage.setScene(scene); 
             stage.setTitle("Dashboard");
             stage.show();
         } catch (Exception e){

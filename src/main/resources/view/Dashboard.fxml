@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane minHeight="1080.0" minWidth="1980.0" prefHeight="400.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.management.supermarket.controller.DashboardController">
+<AnchorPane minHeight="620.0" minWidth="892.0" prefHeight="620.0" prefWidth="892.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.management.supermarket.controller.DashboardPageController">
    <children>
       <VBox layoutX="-16.0" layoutY="-6.0" prefHeight="1080.0" prefWidth="298.0" style="-fx-background-color: #001219;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -66,6 +66,6 @@
             </VBox>
          </children>
       </VBox>
-      <AnchorPane fx:id="ancMainContainer" layoutX="548.0" layoutY="212.0" prefHeight="1080.0" prefWidth="1604.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="ancMainContainer" layoutX="548.0" layoutY="212.0" prefHeight="620.0" prefWidth="566.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="298.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
    </children>
 </AnchorPane>
