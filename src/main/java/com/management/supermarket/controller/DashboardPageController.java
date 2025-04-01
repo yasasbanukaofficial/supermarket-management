@@ -14,19 +14,19 @@ public class DashboardPageController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        navigateTo("Customer.fxml");
+        navigateTo("CustomerPage.fxml");
     }
 
     public void goToCustPage(ActionEvent actionEvent) {
-        navigateTo("Customer.fxml");
+        navigateTo("CustomerPage.fxml");
     }
 
     public void goToItemPage(ActionEvent actionEvent) {
-        navigateTo("Item.fxml");
+        navigateTo("ItemPage.fxml");
     }
 
     public void goToOrderPage(ActionEvent actionEvent) {
-        navigateTo("Item.fxml");
+        navigateTo("OrderPage.fxml");
     }
 
     public void navigateTo(String path){
